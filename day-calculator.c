@@ -1,18 +1,19 @@
-#include(math.h)
-#include(conio.h)
-#include(stdio.h)
+#include<math.h>
+#include<conio.h>
+#include<stdio.h>
 
 void main()
 {
-int d,m,yy,D,xx,c,a'n;
+int d,m,yy,D,xx,c,a,n;
 float q,b,R;
+clrscr();
 printf("\nenter date : ");
 scanf("%d", &d);
 printf("\nenter number of the month :");
 scanf("%d", &n);
-printf("\nenter first two digits of year");
+printf("\nenter first two digits of year :");
 scanf("%d", &xx);
-printf("\nenter last two digits of year");
+printf("\nenter last two digits of year :");
 scanf("%d", &yy);
 if(n==1) {m==0;}
 if(n==2) {m==3;}
@@ -43,7 +44,7 @@ if(R==3) {printf("wednesday");}
 if(R==4) {printf("thursday");}
 if(R==5) {printf("friday");}
 if(R==6) {printf("saturday");}
-
+getch()
 }
 
 
