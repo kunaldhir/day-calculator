@@ -39,7 +39,7 @@ D=d+m+yy+q+c;
 if(yy%4==0&&n==1) {D=D-1;}
 if(yy%4==0&&n==2) {D=D-1;}
 else {D=D;}
-R=D%7;
+R=(D%7)-1;
 if(R==0) {printf("sunday");}
 if(R==1) {printf("monday");}
 if(R==2) {printf("tuesday");}
