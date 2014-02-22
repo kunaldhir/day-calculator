@@ -30,16 +30,16 @@ if(n==12) {m=5;}
 q=yy/4;
 a=xx*100;
 b=a%400;
-if (b==0) {c==6;}
-if(b==100) {c==4;}
-if(b==200) {c==2;}
-if(b==300) {c==0;}
+if (b==0) {c=6;}
+if(b==100) {c=4;}
+if(b==200) {c=2;}
+if(b==300) {c=0;}
 
 D=d+m+yy+q+c;
 if(yy%4==0&&n==1) {D=D-1;}
 if(yy%4==0&&n==2) {D=D-1;}
 else {D=D;}
-R=(D%7)-1;
+R=(D%7);
 if(R==0) {printf("sunday");}
 if(R==1) {printf("monday");}
 if(R==2) {printf("tuesday");}
